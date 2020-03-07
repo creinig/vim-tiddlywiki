@@ -50,7 +50,7 @@ function! GetJournalTiddlerName()
     let fmt = '%F'
   endif
 
-  return trim(system("date -u +'" . fmt . "'"))
+  return trim(system("date +'" . fmt . "'"))
 endfunction
 
 " Open the tiddler with the given name. If it doesn't exist, create and
