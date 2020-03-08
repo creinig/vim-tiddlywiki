@@ -24,7 +24,7 @@ well as directly on the file system.
 * `TiddlyWikiEditJournal : Open the journal tiddler for today or create it if it doesn't exist
 
 The `TiddlyWikiEdit...` commands look for tiddlers in the following locations (in that order):
-* If `g:tiddlywiki_dir is set`:
+* If `g:tiddlywiki_dir` is set:
   * `g:tiddlywiki_dir/`
   * `g:tiddlywiki_dir/tiddlers/`
 * Otherwise:

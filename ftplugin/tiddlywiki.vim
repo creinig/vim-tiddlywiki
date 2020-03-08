@@ -76,9 +76,9 @@ endif
 
 
 " Define commands, allowing the user to define custom mappings
-command -nargs=0 TiddlyWikiUpdateMetadata call <SID>UpdateModifiedTime()
-command -nargs=0 TiddlyWikiInitializeTemplate call <SID>InitializeTemplate([])
-command -nargs=0 TiddlyWikiInitializeJournal call <SID>InitializeTemplate(['Journal'])
+command! -nargs=0 TiddlyWikiUpdateMetadata call <SID>UpdateModifiedTime()
+command! -nargs=0 TiddlyWikiInitializeTemplate call <SID>InitializeTemplate([])
+command! -nargs=0 TiddlyWikiInitializeJournal call <SID>InitializeTemplate(['Journal'])
 
 " Define some default mappings unless disabled
 if !exists("g:tiddlywiki_no_mappings")
